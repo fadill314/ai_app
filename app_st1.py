@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image('https://cdn.britannica.com/39/91239-004-44353E32/Diagram-flowering-plant.jpg')
+st.image('http://www.ehtp.ac.ma/images/lo.png')
 #st.image("sunrise1.jpg", caption="Sunrise by the mountains")
 st.title("Executive Master Cloud Computing")
 
