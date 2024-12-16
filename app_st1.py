@@ -21,11 +21,6 @@ from azure.ai.vision.imageanalysis import ImageAnalysisClient
 from azure.ai.vision.imageanalysis.models import VisualFeatures
 from azure.core.credentials import AzureKeyCredential
 
-# Get Configuration Settings
-#load_dotenv()
-ai_endpoint = "https://prof-10dec-mf-ai-services.cognitiveservices.azure.com/"
-ai_key ="2ogSs0NIGTB797Q46ucYMcUXTsURvo0UhjLa5QVcQ6yDvbsROE4lJQQJ99ALACYeBjFXJ3w3AAAEACOGtwrO"
-
 # Get image
 image_file = st.file_uploader('Charger une image',type=['png', 'jpg'])
 if image_file is not None:
