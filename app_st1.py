@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.sidebar.image('https://upload.wikimedia.org/wikipedia/commons/9/91/LogoEHTP.jpg')
-st.sidebar.title("Executive Master Cloud Computing")
+st.sidebar.header("Executive Master Cloud Computing")
 
 st.header("App pour test des services Azure AI")
 st.subheader("Application 1 : Image Analysis")
