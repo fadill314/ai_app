@@ -1,5 +1,5 @@
 import streamlit as st
-from io import StringIO
+
 st.image('http://www.ehtp.ac.ma/images/lo.png')
 st.title("Executive Master Cloud Computing")
 
