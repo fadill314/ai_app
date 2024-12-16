@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.sidebar.image("https://en.wikipedia.org/wiki/Hassania_School_of_Public_Works#/media/File:LogoEHTP.jpg")
+st.sidebar.image("https://jamiati.ma/sites/default/files/styles/jamiati_card_logo_desktop_2x/public/jamiati-organization/ehtp-1.png")
 st.sidebar.header("Executive Master Cloud Computing")
 
 st.header("App pour test des services Azure AI")
