@@ -1,27 +1,28 @@
 import streamlit as st
 
-st.sidebar.image('https://upload.wikimedia.org/wikipedia/commons/9/91/LogoEHTP.jpg')
+st.sidebar.image("http://www.ehtp.ac.ma/images/lo.png")
 st.sidebar.header("Executive Master Cloud Computing")
 
 st.header("App pour test des services Azure AI")
 st.subheader("Application 1 : Image Analysis")
 
-#st.text_area('Description')
 
-#from dotenv import load_dotenv
 import os
 from PIL import Image, ImageDraw
 import sys
 #from matplotlib import pyplot as plt
 from azure.core.exceptions import HttpResponseError
 import requests
-ai_endpoint = "https://prof-10dec-mf-ai-services.cognitiveservices.azure.com/"
-ai_key ="2ogSs0NIGTB797Q46ucYMcUXTsURvo0UhjLa5QVcQ6yDvbsROE4lJQQJ99ALACYeBjFXJ3w3AAAEACOGtwrO"
 
 # Import namespaces
 from azure.ai.vision.imageanalysis import ImageAnalysisClient
 from azure.ai.vision.imageanalysis.models import VisualFeatures
 from azure.core.credentials import AzureKeyCredential
+
+# Get Config
+
+ai_endpoint = st.secrets['AI_SERVICE_ENDPOINT']
+ai_key = st.secrets['AI_SERVICE_KEY']
 
 # Get image
 image_file = st.file_uploader('Charger une image',type=['png', 'jpg'])
@@ -76,4 +77,3 @@ if image_file is not None:
 
     st.sidebar.title("Sidebar Title")
     st.sidebar.markdown("This is the sidebar content")
-
