@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image('https://upload.wikimedia.org/wikipedia/commons/9/91/LogoEHTP.jpg', width=200)
+st.side.image('https://upload.wikimedia.org/wikipedia/commons/9/91/LogoEHTP.jpg')
 #st.image("sunrise1.jpg", caption="Sunrise by the mountains")
 st.title("Executive Master Cloud Computing")
 
