@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.sidebar.image("http://www.ehtp.ac.ma/images/lo.png",width=200)
+st.sidebar.image("https://en.wikipedia.org/wiki/Hassania_School_of_Public_Works#/media/File:LogoEHTP.jpg")
 st.sidebar.header("Executive Master Cloud Computing")
 
 st.header("App pour test des services Azure AI")
