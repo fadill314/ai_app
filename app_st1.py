@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.image('http://www.ehtp.ac.ma/images/lo.png')
-st.image("sunrise.png", caption="Sunrise by the mountains")
+st.image("sunrise1.jpg", caption="Sunrise by the mountains")
 st.title("Executive Master Cloud Computing")
 
 st.header("App pour test des services Azure AI")
