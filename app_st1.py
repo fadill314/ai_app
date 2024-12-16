@@ -15,6 +15,8 @@ import sys
 #from matplotlib import pyplot as plt
 from azure.core.exceptions import HttpResponseError
 import requests
+ai_endpoint = "https://prof-10dec-mf-ai-services.cognitiveservices.azure.com/"
+ai_key ="2ogSs0NIGTB797Q46ucYMcUXTsURvo0UhjLa5QVcQ6yDvbsROE4lJQQJ99ALACYeBjFXJ3w3AAAEACOGtwrO"
 
 # Import namespaces
 from azure.ai.vision.imageanalysis import ImageAnalysisClient
